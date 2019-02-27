@@ -49,7 +49,7 @@ class SignUpFormState extends State<SignUpForm> {
             ),
             new TextFormField(
               controller: passwordController,
-              decoration: InputDecoration(g
+              decoration: InputDecoration(
                 labelText: 'Password',
                 hintText: 'Enter Password',
                 icon: Icon(Icons.visibility_off),
